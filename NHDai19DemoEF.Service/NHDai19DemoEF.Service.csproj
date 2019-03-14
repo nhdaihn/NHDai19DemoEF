@@ -41,7 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookService.cs" />
+    <Compile Include="Infrastructure\IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NHDai19DemoEF.Data\NHDai19DemoEF.Data.csproj">
+      <Project>{04D44496-B5CA-4CBE-9A74-024A03A02C69}</Project>
+      <Name>NHDai19DemoEF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NHDai19DemoEF.Model\NHDai19DemoEF.Model.csproj">
+      <Project>{0F1DD277-0055-44A5-926D-E68EB0A53D5A}</Project>
+      <Name>NHDai19DemoEF.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NHDai19DemoEF.Repository\NHDai19DemoEF.Repository.csproj">
+      <Project>{C79AF11C-CC78-4EEC-BBA2-F8FC69E9BB3A}</Project>
+      <Name>NHDai19DemoEF.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

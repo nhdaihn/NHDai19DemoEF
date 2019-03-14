@@ -62,3 +62,15 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csproj.CopyComplete
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.dll
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Service.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Model.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.dll.config
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.dll.config
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Service.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.xml
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Model.pdb

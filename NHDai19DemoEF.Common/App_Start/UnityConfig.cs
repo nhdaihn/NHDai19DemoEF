@@ -1,3 +1,7 @@
+using NHDai19DemoEF.Model;
+using NHDai19DemoEF.Repository;
+using NHDai19DemoEF.Service;
+using Store.Data.Infrastructure;
 using System;
 
 using Unity;
@@ -42,6 +46,12 @@ namespace NHDai19DemoEF.Common
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
+            //container.RegisterType<IRepository<Book>, BookRepository>();
+            container.RegisterType<IDbFactory, DbFactory>();
+            container.RegisterType<IUnitOfWork, UnitOfWork>();
+            container.RegisterType<IBookRepository, BookRepository>();
+            container.RegisterType<IBookService, BookService>();
+
         }
     }
 }

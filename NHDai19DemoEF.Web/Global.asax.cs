@@ -16,6 +16,7 @@ namespace NHDai19DemoEF.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
             DatabaseSetup.Initialize();
         }
     }

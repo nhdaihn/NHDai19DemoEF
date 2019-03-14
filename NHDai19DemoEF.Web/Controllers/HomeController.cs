@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NHDai19DemoEF.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,18 @@ namespace NHDai19DemoEF.Web.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        private readonly IBookService _bookService;
+
+        public HomeController(IBookService bookService)
+        {
+            _bookService = bookService;
+        }
+
         public ActionResult Index()
         {
+            var book = _bookService.GetAllBooks();
             return View();
         }
+
     }
 }

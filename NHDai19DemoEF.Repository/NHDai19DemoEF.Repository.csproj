@@ -48,12 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="BookRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NHDai19DemoEF.Data\NHDai19DemoEF.Data.csproj">
+      <Project>{04D44496-B5CA-4CBE-9A74-024A03A02C69}</Project>
+      <Name>NHDai19DemoEF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NHDai19DemoEF.Model\NHDai19DemoEF.Model.csproj">
+      <Project>{0F1DD277-0055-44A5-926D-E68EB0A53D5A}</Project>
+      <Name>NHDai19DemoEF.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

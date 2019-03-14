@@ -136,3 +136,8 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.csproj
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.csproj.CopyComplete
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.dll
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Service.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.dll
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Service.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.pdb
+D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.dll.config

@@ -1028,6 +1028,14 @@
       <Project>{04D44496-B5CA-4CBE-9A74-024A03A02C69}</Project>
       <Name>NHDai19DemoEF.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NHDai19DemoEF.Model\NHDai19DemoEF.Model.csproj">
+      <Project>{0f1dd277-0055-44a5-926d-e68eb0a53d5a}</Project>
+      <Name>NHDai19DemoEF.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NHDai19DemoEF.Service\NHDai19DemoEF.Service.csproj">
+      <Project>{6C5F21B6-95E2-4B7E-9872-AD322499BBCD}</Project>
+      <Name>NHDai19DemoEF.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
