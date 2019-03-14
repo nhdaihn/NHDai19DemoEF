@@ -1,0 +1,5 @@
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Service.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Service.pdb
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csproj.CoreCompileInputs.cache
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.pdb

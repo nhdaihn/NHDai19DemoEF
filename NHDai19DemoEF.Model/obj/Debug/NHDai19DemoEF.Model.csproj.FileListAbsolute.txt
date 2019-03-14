@@ -1,0 +1,5 @@
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.pdb
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csproj.CoreCompileInputs.cache
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.pdb
