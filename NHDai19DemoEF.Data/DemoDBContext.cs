@@ -14,9 +14,6 @@ namespace NHDai19DemoEF.Data
         {
 
         }
-        /// <summary>
-        /// 
-        /// </summary>
         public virtual void Commit()
         {
             base.SaveChanges();
