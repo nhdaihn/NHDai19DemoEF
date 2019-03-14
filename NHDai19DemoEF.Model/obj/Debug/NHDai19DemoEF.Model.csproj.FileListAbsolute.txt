@@ -8,3 +8,8 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.pd
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csproj.CoreCompileInputs.cache
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.dll
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.pdb
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.pdb
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csproj.CoreCompileInputs.cache
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.pdb
