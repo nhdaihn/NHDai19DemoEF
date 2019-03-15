@@ -18,7 +18,7 @@ namespace NHDai19DemoEF.Web.Controllers
 
         public ActionResult Index()
         {
-            var book = _bookService.GetAllBooks();
+            var book = _bookService.GetAll();
             return View();
         }
 

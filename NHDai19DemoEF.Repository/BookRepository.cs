@@ -10,15 +10,13 @@ namespace NHDai19DemoEF.Repository
 {
     public interface IBookRepository : IRepository<Book>
     {
-        IEnumerable<Book> GetAllBooks();
+
     }
     public class BookRepository : RepositoryBase<Book>, IBookRepository
     {
-        public BookRepository(IDbFactory dbFactory): base(dbFactory) { }
-
-        public IEnumerable<Book> GetAllBooks()
+        public BookRepository(IDbFactory dbFactory) : base(dbFactory)
         {
-           return (DbContext.Books.ToList());
+
         }
     }
 }
