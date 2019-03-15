@@ -132,6 +132,7 @@
     <Compile Include="App_Start\DatabaseSetup.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AuthorController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeAdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1019,6 +1020,7 @@
     <Content Include="Areas\Admin\Scripts\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="Areas\Admin\Scripts\plugins\input-mask\phone-codes\phone-codes.json" />
     <Content Include="Areas\Admin\Views\HomeAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Author\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutHome.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NHDai19DemoEF.Model;
+using NHDai19DemoEF.Repository;
 using NHDai19DemoEF.Service.Infrastructure;
 using Store.Data.Infrastructure;
 
@@ -15,7 +16,7 @@ namespace NHDai19DemoEF.Service
     }
     public class AuthorService : ServiceBase<Author>, IAuthorService
     {
-        public AuthorService(IUnitOfWork unitOfWork, IRepository<Author> repository) : base(unitOfWork, repository)
+        public AuthorService(IUnitOfWork unitOfWork, IAuthorRepository repository) : base(unitOfWork,repository)
         {
         }
     }

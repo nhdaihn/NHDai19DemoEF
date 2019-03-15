@@ -12,11 +12,11 @@ namespace NHDai19DemoEF.Repository
     {
 
     }
-    class PublisherRepository:RepositoryBase<Publisher>,IPublisherRepository
+    class PublisherRepository : RepositoryBase<Publisher>, IPublisherRepository
     {
-        public PublisherRepository(IDbFactory dbFactory):base(dbFactory)
+        public PublisherRepository(IDbFactory dbFactory) : base(dbFactory)
         {
-            
+
         }
     }
 }

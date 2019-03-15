@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NHDai19DemoEF.Model;
+using NHDai19DemoEF.Repository;
 using NHDai19DemoEF.Service.Infrastructure;
 using Store.Data.Infrastructure;
 
@@ -15,7 +16,7 @@ namespace NHDai19DemoEF.Service
     }
     public class PublisherService : ServiceBase<Publisher>, IPublisherService
     {
-        public PublisherService(IUnitOfWork unitOfWork, IRepository<Publisher> repository) : base(unitOfWork, repository)
+        public PublisherService(IUnitOfWork unitOfWork, IPublisherRepository repository) : base(unitOfWork, repository)
         {
         }
     }

@@ -41,8 +41,12 @@ namespace NHDai19DemoEF.Common
         {
             container.RegisterType<IDbFactory, DbFactory>();
             container.RegisterType<IUnitOfWork, UnitOfWork>();
+
             container.RegisterType<IBookRepository, BookRepository>();
             container.RegisterType<IBookService, BookService>();
+
+            container.RegisterType<IAuthorRepository, AuthorRepository>();
+            container.RegisterType<IAuthorService, AuthorService>();
         }
     }
 }
