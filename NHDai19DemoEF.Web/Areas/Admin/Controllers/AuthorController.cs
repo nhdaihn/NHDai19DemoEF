@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Linq;
+using System.Web.Mvc;
 using NHDai19DemoEF.Service;
 
 namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
@@ -15,7 +16,7 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
         public ActionResult Index()
         {
             var listAuthor = _authorService.GetAll();
-            return View(listAuthor);
+            return View(listAuthor.AsEnumerable());
         }
     }
 }

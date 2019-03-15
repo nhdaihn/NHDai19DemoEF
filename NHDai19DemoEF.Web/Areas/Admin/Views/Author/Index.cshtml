@@ -1,9 +1,16 @@
 ﻿@using NHDai19DemoEF.Model
-@model IEnumerable<NHDai19DemoEF.Model.Book>
+@model IEnumerable<NHDai19DemoEF.Model.Author>
 @{
     ViewBag.Title = "Author";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
+<style>
+    .tableHead {
+        background-color: #221D1C;
+        color: aliceblue;
+
+    }
+</style>
 <section class="content-header">
     <h1>
         List Author
@@ -14,39 +21,31 @@
     </ol>
 </section>
 <section class="content">
-    <div class="table-responsive text-nowrap">
+    <div class="table-responsive table-bordered">
         <!--Table-->
         <table class="table table-striped">
 
             <!--Table head-->
-            <thead>
+            <thead class="tableHead">
                 <tr>
                     <th>#</th>
-                    <th>Title</th>
-                    <th>Image</th>
-                    <th>Author</th>
-                    <th>Category</th>
-                    <th>Publisher</th>
-                    <th>Is Active</th>
-                    <th></th>
+                    <th>Name</th>
+                    <th>History</th>
+                    <th style="width: 13%"></th>
                 </tr>
             </thead>
             <!--Table head-->
             <!--Table body-->
             <tbody>
-                @foreach (Book item in Model)
+                @foreach (Author item in Model)
                 {
                     <tr>
                         <th scope="row">1</th>
-                        <td>@item.Title</td>
-                        <td>@item.ImgUrl</td>
-                        <td>@item.Author.AuthorName</td>
-                        <td>@item.Category.CategoryName</td>
-                        <td>@item.Publisher.PublisherName</td>
-                        <td>@item.IsActive</td>
+                        <td>@item.AuthorName</td>
+                        <td>@item.History</td>
                         <th>
-                            <a class="btn btn-info btn-sm" href="/Admin/Author/Edit/"><i class="fa fa-pencil"></i> Edit</a>
-                            <a class="btn btn-danger btn-sm" href="/Admin/Author/Delete/"><i class="fa fa-pencil"></i> Delete</a>
+                            <a class="btn btn-tumblr btn-sm" href="/Admin/Author/Edit/@item.AuthorId"><i class="fa fa-pencil"></i> Edit</a>
+                            <a class="btn btn-adn btn-sm" href="/Admin/Author/Delete/@item.AuthorId"><i class="fa fa-pencil"></i> Delete</a>
                         </th>
                     </tr>
                 }
