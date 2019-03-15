@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using NHDai19DemoEF.Common;
 using NHDai19DemoEF.Web.App_Start;
 
 namespace NHDai19DemoEF.Web
@@ -16,7 +17,7 @@ namespace NHDai19DemoEF.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-
+            UnityMvcActivator.Start();
             DatabaseSetup.Initialize();
         }
     }

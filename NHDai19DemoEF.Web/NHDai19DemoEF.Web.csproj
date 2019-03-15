@@ -1024,6 +1024,10 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NHDai19DemoEF.Common\NHDai19DemoEF.Common.csproj">
+      <Project>{BF0EA7E7-3C65-4719-B3D9-C8892422E3AC}</Project>
+      <Name>NHDai19DemoEF.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NHDai19DemoEF.Data\NHDai19DemoEF.Data.csproj">
       <Project>{04D44496-B5CA-4CBE-9A74-024A03A02C69}</Project>
       <Name>NHDai19DemoEF.Data</Name>

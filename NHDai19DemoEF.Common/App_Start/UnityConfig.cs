@@ -1,4 +1,3 @@
-using NHDai19DemoEF.Model;
 using NHDai19DemoEF.Repository;
 using NHDai19DemoEF.Service;
 using Store.Data.Infrastructure;
@@ -40,18 +39,10 @@ namespace NHDai19DemoEF.Common
         /// </remarks>
         public static void RegisterTypes(IUnityContainer container)
         {
-            // NOTE: To load from web.config uncomment the line below.
-            // Make sure to add a Unity.Configuration to the using statements.
-            // container.LoadConfiguration();
-
-            // TODO: Register your type's mappings here.
-            // container.RegisterType<IProductRepository, ProductRepository>();
-            //container.RegisterType<IRepository<Book>, BookRepository>();
             container.RegisterType<IDbFactory, DbFactory>();
             container.RegisterType<IUnitOfWork, UnitOfWork>();
             container.RegisterType<IBookRepository, BookRepository>();
             container.RegisterType<IBookService, BookService>();
-
         }
     }
 }
