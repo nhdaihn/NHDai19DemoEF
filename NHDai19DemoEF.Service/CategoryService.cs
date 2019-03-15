@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using NHDai19DemoEF.Model;
+using NHDai19DemoEF.Service.Infrastructure;
+using Store.Data.Infrastructure;
+
+namespace NHDai19DemoEF.Service
+{
+    public interface ICategoryService : IService<Category>
+    {
+
+    }
+    class CategoryService : ServiceBase<Category>, ICategoryService
+    {
+        public CategoryService(IUnitOfWork unitOfWork, IRepository<Category> repository) : base(unitOfWork, repository)
+        {
+        }
+    }
+}
