@@ -141,6 +141,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\Scripts\adminCSS\nhdai19.css" />
     <Content Include="Areas\Admin\Scripts\bootstrap\css\bootstrap.css" />
     <Content Include="Areas\Admin\Scripts\bootstrap\css\bootstrap.min.css" />
     <Content Include="Areas\Admin\Scripts\bootstrap\fonts\glyphicons-halflings-regular.svg" />

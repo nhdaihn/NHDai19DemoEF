@@ -223,3 +223,11 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.csproj
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.csproj.CopyComplete
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.dll
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Web\obj\Debug\NHDai19DemoEF.Web.pdb
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\WebActivatorEx.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Abstractions.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Container.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.dll
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.pdb
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.dll.config
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.xml

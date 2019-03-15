@@ -64,9 +64,6 @@ E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Razor.xml
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.xml
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Razor.xml
-E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Abstractions.pdb
-E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Container.pdb
-E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Mvc.pdb
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Mvc.xml
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.xml
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csprojAssemblyReference.cache
@@ -116,3 +113,4 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csproj.CopyComplete
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.dll
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.pdb
+E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Common.dll.config
