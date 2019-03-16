@@ -22,6 +22,7 @@ namespace NHDai19DemoEF.Model
         public string Summary { get; set; }
 
         [Required(ErrorMessage = "Required!")]
+        [DisplayFormat(DataFormatString = "{0:C0}")]
         public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Required!")]

@@ -1,0 +1,56 @@
+﻿@using NHDai19DemoEF.Model
+@model IEnumerable<NHDai19DemoEF.Model.Category>
+@{
+    ViewBag.Title = "List Category";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    int number = 0;
+}
+<div class="container-fluid">
+    <section class="content-header">
+        <h4>
+            <b>List Category</b>
+        </h4>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Category</li>
+        </ol>
+    </section>
+
+    <section class="content">
+        <p>
+            <a class="btn btn-success" href="/Admin/Author/Create"><i class="fa fa-plus"></i> Create New</a>
+        </p>
+        <div class="table-responsive ">
+            <table class="table table-striped table-bordered">
+
+                <thead>
+                    <tr class="tableHead">
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Category item in Model)
+                    {
+                        number++;
+                        <tr>
+                            <th scope="row">@number</th>
+                            <td>@item.CategoryName</td>
+                            <td>@item.Description</td>
+                            <th>
+                                <a class="btn btn-tumblr btn-sm" href="/Admin/Author/Edit/@item.CategoryId"><i class="fa fa-pencil"></i> Edit</a>
+                            </th>
+                            <th>
+                                <a class="btn btn-adn btn-sm" href="/Admin/Author/Delete/@item.CategoryId"><i class="fa fa-pencil"></i> Delete</a>
+                            </th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+

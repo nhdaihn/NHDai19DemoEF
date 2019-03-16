@@ -133,7 +133,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AuthorController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BookController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeAdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PublisherController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -141,6 +144,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\Scripts\adminCSS\mytable.css" />
     <Content Include="Areas\Admin\Scripts\adminCSS\nhdai19.css" />
     <Content Include="Areas\Admin\Scripts\bootstrap\css\bootstrap.css" />
     <Content Include="Areas\Admin\Scripts\bootstrap\css\bootstrap.min.css" />
@@ -960,6 +964,41 @@
     <Content Include="Areas\Admin\Scripts\plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="Areas\Admin\Scripts\plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="Areas\Admin\Scripts\plugins\timepicker\bootstrap-timepicker.min.js" />
+    <Content Include="Content\Admin\images\book-0001.jpg" />
+    <Content Include="Content\Admin\images\book-0002.jpg" />
+    <Content Include="Content\Admin\images\book-0003.jpg" />
+    <Content Include="Content\Admin\images\book-0004.jpg" />
+    <Content Include="Content\Admin\images\book-0005.jpg" />
+    <Content Include="Content\Admin\images\book-0006.jpg" />
+    <Content Include="Content\Admin\images\book-0007.jpg" />
+    <Content Include="Content\Admin\images\book-0008.jpg" />
+    <Content Include="Content\Admin\images\book-0009.jpg" />
+    <Content Include="Content\Admin\images\book-0010.jpg" />
+    <Content Include="Content\Admin\images\book-0011.jpg" />
+    <Content Include="Content\Admin\images\book-0012.jpg" />
+    <Content Include="Content\Admin\images\book-0013.jpg" />
+    <Content Include="Content\Admin\images\book-0014.jpg" />
+    <Content Include="Content\Admin\images\book-0015.jpg" />
+    <Content Include="Content\Admin\images\book-0016.jpg" />
+    <Content Include="Content\Admin\images\book-0017.jpg" />
+    <Content Include="Content\Admin\images\book-0018.jpg" />
+    <Content Include="Content\Admin\images\book-0019.jpg" />
+    <Content Include="Content\Admin\images\book-0020.jpg" />
+    <Content Include="Content\Admin\images\book-0021.jpg" />
+    <Content Include="Content\Admin\images\book-0022.jpg" />
+    <Content Include="Content\Admin\images\book-0023.jpg" />
+    <Content Include="Content\Admin\images\book-0024.jpg" />
+    <Content Include="Content\Admin\images\book-0025.jpg" />
+    <Content Include="Content\Admin\images\book-0026.jpg" />
+    <Content Include="Content\Admin\images\book-0027.jpg" />
+    <Content Include="Content\Admin\images\book-0028.jpg" />
+    <Content Include="Content\Admin\images\book-0029.jpg" />
+    <Content Include="Content\Admin\images\book-0030.jpg" />
+    <Content Include="Content\Admin\images\bootstrap-solid.svg" />
+    <Content Include="Content\Admin\images\carousel-img-001.jpg" />
+    <Content Include="Content\Admin\images\carousel-img-002.jpg" />
+    <Content Include="Content\Admin\images\carousel-img-003.jpg" />
+    <Content Include="Content\Admin\images\carousel-img-004.jpg" />
     <Content Include="Content\Home\images\templatemo_ads.jpg" />
     <Content Include="Content\Home\images\templatemo_bg.jpg" />
     <Content Include="Content\Home\images\templatemo_btn_01.jpg" />
@@ -1022,6 +1061,10 @@
     <Content Include="Areas\Admin\Scripts\plugins\input-mask\phone-codes\phone-codes.json" />
     <Content Include="Areas\Admin\Views\HomeAdmin\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Author\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Publisher\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Book\Index.cshtml" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_LayoutHome.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />

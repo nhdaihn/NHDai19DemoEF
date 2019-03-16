@@ -14,7 +14,7 @@ namespace NHDai19DemoEF.Service
     {
 
     }
-    class CategoryService : ServiceBase<Category>, ICategoryService
+    public class CategoryService : ServiceBase<Category>, ICategoryService
     {
         public CategoryService(IUnitOfWork unitOfWork, ICategoryRepository repository) : base(unitOfWork, repository)
         {

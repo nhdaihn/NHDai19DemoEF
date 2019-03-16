@@ -47,6 +47,12 @@ namespace NHDai19DemoEF.Common
 
             container.RegisterType<IAuthorRepository, AuthorRepository>();
             container.RegisterType<IAuthorService, AuthorService>();
+
+            container.RegisterType<ICategoryRepository, CategoryRepository>();
+            container.RegisterType<ICategoryService, CategoryService>();
+
+            container.RegisterType<IPublisherRepository, PublisherRepository>();
+            container.RegisterType<IPublisherService, PublisherService>();
         }
     }
 }
