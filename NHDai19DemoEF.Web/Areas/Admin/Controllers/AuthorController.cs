@@ -1,6 +1,8 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
+using NHDai19DemoEF.Model;
 using NHDai19DemoEF.Service;
+using NHDai19DemoEF.Web.Areas.Admin.ViewModel;
 
 namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
 {
@@ -17,6 +19,26 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
         {
             var listAuthor = _authorService.GetAll();
             return View(listAuthor.AsEnumerable());
+        }
+        public ActionResult Create()
+        {
+            var author = new AuthorEditViewModel();
+            return View(author);
+        }
+        [HttpPost]
+        public ActionResult Create(AuthorEditViewModel authorEditViewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            var author = new Author()
+            {
+                AuthorName = authorEditViewModel.AuthorName,
+                History = authorEditViewModel.History
+            };
+            _authorService.Add(author);
+            return RedirectToAction("Index");
         }
     }
 }
