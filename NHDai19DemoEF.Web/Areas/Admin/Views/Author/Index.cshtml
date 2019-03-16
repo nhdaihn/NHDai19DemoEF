@@ -40,7 +40,7 @@
                         <tr>
                             <th scope="row">@number</th>
                             <td>@item.AuthorName</td>
-                            <td>@item.History</td>
+                            <td>@Html.Raw(HttpUtility.HtmlDecode(item.History))</td>
                             <th>
                                 <a class="btn btn-tumblr btn-sm" href="/Admin/Author/Edit/@item.AuthorId"><i class="fa fa-pencil"></i> Edit</a>
                             </th>

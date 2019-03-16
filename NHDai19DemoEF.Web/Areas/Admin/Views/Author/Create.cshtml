@@ -18,6 +18,7 @@
     <section class="content">
         <div class="container-fluid">
             <form action="/Admin/Author/Create" method="post" class="form-horizontal">
+                @Html.AntiForgeryToken()
                 <div class="form-group">
                     <label name="Name" class="control-label">Name:</label>
                     <div>
@@ -40,13 +41,10 @@
         </div>
     </section>
 </div>
+
 @section scripts {
     <script src="~/Areas/Admin/Scripts/plugins/ckeditor/ckeditor.js"></script>
-    <script>
-        $(document).ready(function () {
-            CKEDITOR.replace('ckeditor');
-        });
-    </script>
+    <script src="~/Areas/Admin/Scripts/plugins/ckeditor/ckeditorconfig.js"></script>
 }
 
 

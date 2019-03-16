@@ -7,6 +7,7 @@ namespace NHDai19DemoEF.Model
     public class Author
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AuthorId { get; set; }
 
         [Required]

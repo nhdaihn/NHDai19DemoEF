@@ -16,7 +16,7 @@ namespace NHDai19DemoEF.Web.Areas.Admin.ViewModel
         [Display(Name = "Author Name")]
         public string AuthorName { get; set; }
 
-        [Required(ErrorMessage = "Please enter author description.")]
+        [Required(ErrorMessage = "Please enter author history.")]
         [MaxLength(1000, ErrorMessage = "The description must be between 20 and 1000 characters.")]
         [MinLength(20, ErrorMessage = "The description must be between 20 and 1000 characters.")]
         [Display(Name = "Description")]

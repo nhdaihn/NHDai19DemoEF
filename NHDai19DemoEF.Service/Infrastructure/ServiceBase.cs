@@ -50,10 +50,15 @@ namespace NHDai19DemoEF.Service.Infrastructure
         {
             return _repository.GetMany(where);
         }
-
+      
         public void Update(T entity)
         {
             _repository.Update(entity);
+        }
+
+        public void SaveDkm()
+        {
+            _unitOfWork.Commit();
         }
     }
 }

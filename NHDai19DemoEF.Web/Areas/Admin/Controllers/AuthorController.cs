@@ -26,6 +26,8 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
             return View(author);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public ActionResult Create(AuthorEditViewModel authorEditViewModel)
         {
             if (!ModelState.IsValid)
@@ -38,6 +40,7 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
                 History = authorEditViewModel.History
             };
             _authorService.Add(author);
+            _authorService.SaveDkm();
             return RedirectToAction("Index");
         }
     }
