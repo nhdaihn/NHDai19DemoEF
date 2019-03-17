@@ -40,7 +40,7 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
                 History = authorEditViewModel.History
             };
             _authorService.Add(author);
-            _authorService.SaveDkm();
+            _authorService.Save();
             return RedirectToAction("Index");
         }
     }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NHDai19DemoEF.Data;
+﻿using NHDai19DemoEF.Data;
 
 namespace Store.Data.Infrastructure
 {

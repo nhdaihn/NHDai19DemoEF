@@ -56,7 +56,7 @@ namespace NHDai19DemoEF.Service.Infrastructure
             _repository.Update(entity);
         }
 
-        public void SaveDkm()
+        public void Save()
         {
             _unitOfWork.Commit();
         }

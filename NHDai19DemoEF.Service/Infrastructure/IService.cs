@@ -23,6 +23,7 @@ namespace NHDai19DemoEF.Service
         IEnumerable<T> GetAll();
         // Gets entities using delegate
         IEnumerable<T> GetMany(Expression<Func<T, bool>> where);
-        void SaveDkm();
+        // Save changes
+        void Save();
     }
 }

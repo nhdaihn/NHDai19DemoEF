@@ -9,10 +9,7 @@ namespace NHDai19DemoEF.Data
         {
 
         }
-        public virtual void Commit()
-        {
-            base.SaveChanges();
-        }
+
         public DbSet<Book> Books { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Author> Authors { get; set; }
@@ -21,5 +18,10 @@ namespace NHDai19DemoEF.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Comment> Comments { get; set; }
+
+        public virtual void Commit()
+        {
+            base.SaveChanges();
+        }
     }
 }
