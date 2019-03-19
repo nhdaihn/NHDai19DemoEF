@@ -231,3 +231,16 @@ E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.dll
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.pdb
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.dll.config
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.xml
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Service.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\WebActivatorEx.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Abstractions.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Container.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.dll
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.pdb
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Common.dll.config
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Service.pdb
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.pdb
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\NHDai19DemoEF.Repository.dll.config
+D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Web\bin\Unity.Mvc.xml

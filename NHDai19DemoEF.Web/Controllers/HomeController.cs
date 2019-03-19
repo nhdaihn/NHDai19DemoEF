@@ -1,13 +1,9 @@
 ﻿using NHDai19DemoEF.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace NHDai19DemoEF.Web.Controllers
 {
-    public class HomeController : Controller
+	public class HomeController : Controller
     {
         private readonly IBookService _bookService;
 
