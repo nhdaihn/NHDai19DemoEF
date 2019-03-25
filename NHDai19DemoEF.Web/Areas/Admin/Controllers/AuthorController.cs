@@ -24,6 +24,7 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
 		public ActionResult Index(string keySearch)
 		{
 			var listAuthor = _authorService.SearchAuthorByName(keySearch);
+
 			return Json(listAuthor, JsonRequestBehavior.AllowGet);
 		}
 		public ActionResult Create()
