@@ -15,3 +15,9 @@ D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.dl
 D:\NHDai\ATNB\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.pdb
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csprojAssemblyReference.cache
 E:\CMC\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csprojAssemblyReference.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\bin\Debug\NHDai19DemoEF.Model.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csprojAssemblyReference.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.csproj.CoreCompileInputs.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Model\obj\Debug\NHDai19DemoEF.Model.pdb

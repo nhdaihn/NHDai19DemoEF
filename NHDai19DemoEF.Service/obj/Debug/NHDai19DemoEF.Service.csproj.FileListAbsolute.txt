@@ -49,3 +49,20 @@ D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Repository.
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\EntityFramework.xml
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csprojAssemblyReference.cache
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csproj.CopyComplete
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Service.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Service.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Data.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Model.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Repository.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\EntityFramework.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Data.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Data.dll.config
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Model.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Repository.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\NHDai19DemoEF.Repository.dll.config
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\bin\Debug\EntityFramework.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csprojAssemblyReference.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csproj.CoreCompileInputs.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.csproj.CopyComplete
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Service\obj\Debug\NHDai19DemoEF.Service.pdb

@@ -124,3 +124,45 @@ D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.p
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.dll.config
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Service.pdb
 D:\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Common.dll.config
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Common.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Common.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Model.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Service.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.ValueTuple.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Helpers.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Mvc.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Razor.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Razor.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Abstractions.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Container.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Mvc.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\WebActivatorEx.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Data.dll.config
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Model.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Repository.dll.config
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\NHDai19DemoEF.Service.pdb
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.ValueTuple.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Helpers.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Mvc.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.Razor.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\System.Web.WebPages.Razor.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\Unity.Mvc.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\bin\Debug\EntityFramework.xml
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csprojAssemblyReference.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csproj.CoreCompileInputs.cache
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.csproj.CopyComplete
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.dll
+D:\New folder\NHDai\NHDai19DemoEF\NHDai19DemoEF.Common\obj\Debug\NHDai19DemoEF.Common.pdb

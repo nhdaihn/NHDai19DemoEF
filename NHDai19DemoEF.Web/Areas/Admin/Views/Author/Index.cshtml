@@ -6,50 +6,8 @@
 	int number = 0;
 }
 <style>
-	#search {
-		float: right;
-		margin-top: 9px;
-		width: 250px;
-	}
-
-	.search {
-		padding: 5px 0;
-		width: 230px;
-		height: 30px;
-		position: relative;
-		left: 10px;
-		float: right;
-		line-height: 22px;
-		margin-right: 11px;
-		margin-bottom: 8px;
-	}
-
-		.search input {
-			position: absolute;
-			width: 0px;
-			float: Left;
-			margin-left: 210px;
-			-webkit-transition: all 0.7s ease-in-out;
-			-moz-transition: all 0.7s ease-in-out;
-			-o-transition: all 0.7s ease-in-out;
-			transition: all 0.7s ease-in-out;
-			height: 30px;
-			line-height: 18px;
-			padding: 0 2px 0 2px;
-			border-radius: 1px;
-		}
-
-			.search:hover input, .search input:focus {
-				width: 200px;
-				margin-left: 0px;
-			}
-
-	.btn1 {
-		height: 30px;
-		position: absolute;
-		right: 0;
-		top: 5px;
-		border: none;
+	.btncreate {
+		margin-bottom: 10px;
 	}
 </style>
 <div class="container-fluid">
@@ -65,16 +23,8 @@
 
 	<section class="content">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 btncreate">
 				<a class="btn btn-success" href="/Admin/Author/Create"><i class="fa fa-plus"></i> Create New</a>
-			</div>
-			<div class="col-md-6">
-				<div class="search">
-					<form action="/Admin/Author/Index" method="post">
-						<input type="text" name="keySearch" class="form-control input-sm" maxlength="64" placeholder="Search" />
-						<button type="submit" id="btnSearch" class="btn1 btn-primary">Search</button>
-					</form>
-				</div>
 			</div>
 		</div>
 		<div class="table-responsive ">
@@ -100,29 +50,47 @@
 								<a class="btn btn-tumblr btn-sm" href="/Admin/Author/Edit/@item.AuthorId"><i class="fa fa-pencil"></i> Edit</a>
 							</th>
 							<th>
-								<a class="btn btn-adn btn-sm" href="/Admin/Author/Delete/@item.AuthorId"><i class="fa fa-pencil"></i> Delete</a>
+								<a class="btn btn-adn btn-sm" onclick="Delete('@Url.Action("Delete", "Author", new { authorId=@item.AuthorId})')"><i class="fa fa-pencil"></i> Delete</a>
 							</th>
 						</tr>
 					}
 				</tbody>
 			</table>
 		</div>
+		<div class="loaderbody" id="loaderbody">
+			<div class="loader"></div>
+		</div>
 	</section>
 </div>
 @section scripts {
 	<script>
-		$(document).ready(function () {
-			$('#btnSearch').click(function () {
+		function activatejQueryTable() {
+			$("#mytable").DataTable();
+		}
+		$(function () {
+			activatejQueryTable();
+		});
+
+	</script>
+
+	<script>
+		function Delete(url) {
+			if (confirm('Are you sure to delete this record ?') == true) {
 				$.ajax({
-					type: 'GET',
-					url: '@Url.Action("Index","Author")',
-					dataType: 'json',
-					contentType: 'application/json',
-					success: function (result) {
-						$("#mytable").html(result);
+					type: 'POST',
+					url: url,
+					success: function (response) {
+						if (response.success) {
+							$.notify(response.message, "warn");
+							if (typeof activatejQueryTable !== 'undefined' && $.isFunction(activatejQueryTable))
+								activatejQueryTable();
+						}
+						else {
+							$.notify(response.message, "error");
+						}
 					}
 				});
-			});
-		});
+			}
+		}
 	</script>
 }

@@ -1,5 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Web.Mvc;
+using jQueryAjaxInAsp.NETMVC;
 using NHDai19DemoEF.Model;
 using NHDai19DemoEF.Service;
 using NHDai19DemoEF.Web.Areas.Admin.ViewModel;
@@ -49,6 +51,29 @@ namespace NHDai19DemoEF.Web.Areas.Admin.Controllers
 			_authorService.Add(author);
 			_authorService.Save();
 			return RedirectToAction("Index");
+		}
+		public ActionResult Delete(int authorId)
+		{
+			try
+			{
+				var author = _authorService.GetById(authorId);
+				if (author != null)
+				{
+					_authorService.Delete(author);
+					return Json(new { success = true, html = GlobalClass.RenderRazorViewToString(this, "Index", _authorService.GetAll()), message = "Deleted Successfully" }, JsonRequestBehavior.AllowGet);
+				}
+				else
+				{
+					return Json(new { success = false, message = "Something wrong !" }, JsonRequestBehavior.AllowGet);
+
+				}
+			}
+			catch (Exception e)
+			{
+				return Json(new { success = false, message = e.Message }, JsonRequestBehavior.AllowGet);
+
+			}
+
 		}
 	}
 }
