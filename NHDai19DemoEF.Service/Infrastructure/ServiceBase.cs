@@ -10,7 +10,7 @@ namespace NHDai19DemoEF.Service.Infrastructure
         protected readonly IUnitOfWork _unitOfWork;
         protected readonly IRepository<T> _repository;
 
-        public ServiceBase(IUnitOfWork unitOfWork, IRepository<T> repository)
+        protected ServiceBase(IUnitOfWork unitOfWork, IRepository<T> repository)
         {
             _unitOfWork = unitOfWork;
             _repository = repository;
@@ -50,7 +50,7 @@ namespace NHDai19DemoEF.Service.Infrastructure
         {
             return _repository.GetMany(where);
         }
-      
+
         public void Update(T entity)
         {
             _repository.Update(entity);

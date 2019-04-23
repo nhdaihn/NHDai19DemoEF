@@ -1,4 +1,5 @@
-﻿using NHDai19DemoEF.Model;
+﻿using System;
+using NHDai19DemoEF.Model;
 using System.Data.Entity;
 
 namespace NHDai19DemoEF.Data
@@ -21,7 +22,16 @@ namespace NHDai19DemoEF.Data
 
         public virtual void Commit()
         {
-            base.SaveChanges();
+            try
+            {
+                var q = base.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
         }
     }
 }

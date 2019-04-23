@@ -13,9 +13,9 @@ namespace NHDai19DemoEF.Service
 	public class AuthorService : ServiceBase<Author>, IAuthorService
 	{
 		private readonly IAuthorRepository _authorRepository;
-		public AuthorService(IUnitOfWork unitOfWork, IAuthorRepository repository, IAuthorRepository authorRepository) : base(unitOfWork, repository)
+		public AuthorService(IUnitOfWork unitOfWork, IAuthorRepository repository) : base(unitOfWork, repository)
 		{
-			_authorRepository = authorRepository;
+			_authorRepository = repository;
 		}
 
 		public IEnumerable<Author> SearchAuthorByName(string keySearch)
