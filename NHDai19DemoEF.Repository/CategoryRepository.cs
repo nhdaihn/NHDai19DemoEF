@@ -13,5 +13,9 @@ namespace NHDai19DemoEF.Repository
         {
 
         }
+        public void ABC()
+        {
+            // do something..............
+        }
     }
 }
