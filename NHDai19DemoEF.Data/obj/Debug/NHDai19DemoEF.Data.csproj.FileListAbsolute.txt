@@ -68,3 +68,17 @@ D:\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.csproj.CoreComp
 D:\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.csproj.CopyComplete
 D:\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.dll
 D:\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.pdb
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\NHDai19DemoEF.Data.dll.config
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\NHDai19DemoEF.Data.dll
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\NHDai19DemoEF.Data.pdb
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\EntityFramework.dll
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\NHDai19DemoEF.Model.dll
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\NHDai19DemoEF.Model.pdb
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\EntityFramework.xml
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.csprojAssemblyReference.cache
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.csproj.CoreCompileInputs.cache
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.csproj.CopyComplete
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.dll
+C:\Users\nhdai\Desktop\NHDai19DemoEF\NHDai19DemoEF.Data\obj\Debug\NHDai19DemoEF.Data.pdb

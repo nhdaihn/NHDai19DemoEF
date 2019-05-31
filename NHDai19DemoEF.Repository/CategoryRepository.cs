@@ -13,5 +13,9 @@ namespace NHDai19DemoEF.Repository
         {
 
         }
+        public void ZYZ()
+        {
+            //do something
+        }
     }
 }
