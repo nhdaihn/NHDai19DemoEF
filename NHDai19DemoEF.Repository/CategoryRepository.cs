@@ -13,6 +13,10 @@ namespace NHDai19DemoEF.Repository
         {
 
         }
+        public void ABC()
+        {
+            // do something..............
+        }
         public void ZYZ()
         {
             //do something
