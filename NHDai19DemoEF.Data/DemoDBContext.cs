@@ -22,16 +22,7 @@ namespace NHDai19DemoEF.Data
 
         public virtual void Commit()
         {
-            try
-            {
-                var q = base.SaveChanges();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-
+            base.SaveChanges();
         }
     }
 }

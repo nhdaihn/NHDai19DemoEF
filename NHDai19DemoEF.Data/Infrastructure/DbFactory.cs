@@ -4,7 +4,7 @@ namespace Store.Data.Infrastructure
 {
     public class DbFactory : Disposable, IDbFactory
     {
-        DemoDBContext dbContext;
+        private static DemoDBContext dbContext;
 
         public DemoDBContext Init()
         {
